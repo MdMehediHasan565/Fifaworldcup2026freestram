@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>FIFA World Cup 2026™ | Official Live Hub | Mehedi Tech</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,500;14..32,700;14..32,900&family=Teko:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="fifa-bg-pattern"></div>
+  <div class="animated-grid"></div>
+
+  <div class="main-container">
+    <div class="fifa-header">
+      <div class="logo-area">
+        <h1>🏆 FIFA WORLD CUP 2026™</h1>
+        <div class="fifa-badge-official">OFFICIAL BROADCAST HUB</div>
+      </div>
+      <div class="developer-name">
+        👨‍💻 DEVELOPED BY <span>MEHEDI TECH</span> <br>
+        <span style="font-size:0.7rem;">⚡ FULL AUTO LIVE STREAM | A TO Z FIXTURES</span>
+      </div>
+    </div>
+
+    <div class="live-broadcast">
+      <div class="broadcast-header">
+        <span class="live-tag">🔴 FIFA LIVE</span>
+        <span class="match-current" id="liveMatchTitleDisplay">Select Match from List</span>
+        <span>📡 4K UHD • FIFA TV</span>
+      </div>
+      <div class="stream-player">
+        <div id="fifaLivePlayer" class="fifa-stream-sim">
+          <div class="broadcast-graphics">
+            <div style="font-size: 2rem;">🏆 2026 FIFA WORLD CUP 🏆</div>
+            <div style="font-weight: 300; margin-top: 0.5rem;" id="simulatedEventText">⚡ MATCH CENTER READY ⚡</div>
+            <div style="margin-top: 1rem; font-family: monospace;" id="scoreSimulate">● LIVE BROADCAST ●</div>
+          </div>
+          <div class="fifa-watermark">FIFA WORLD CUP 2026 • EXCLUSIVE DIGITAL COVERAGE</div>
+        </div>
+      </div>
+      <div class="stream-controls">
+        <button class="btn-fifa" id="refreshStreamBtn">⟳ REFRESH SIGNAL</button>
+        <button class="btn-fifa" id="fullScreenMatchBtn">📺 FULL SCREEN MODE</button>
+      </div>
+    </div>
+
+    <div class="section-title">📋 A → Z | FULL TOURNAMENT FIXTURES (LIVE AUTO DETECT)</div>
+    <div id="matchesAZContainer" class="az-grid"></div>
+
+    <footer>
+      © 2026 FIFA World Cup • All match dates & live status auto-refresh • No YouTube, pure FIFA branded simulation.<br>
+      * Official digital hub by Mehedi Tech | Real-time schedule, local storage, Auto live indicator based on system time.
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
